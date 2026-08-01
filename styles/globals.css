@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple global visual tweaks */
+html, body, #__next {
+  height: 100%;
+  background: linear-gradient(180deg, #0b0b0b 0%, #111111 100%);
+  color: #F5F5F5;
+}
+
+a { color: inherit; }
