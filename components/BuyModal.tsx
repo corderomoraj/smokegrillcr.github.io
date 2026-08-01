@@ -16,7 +16,7 @@ export default function BuyModal({ open, onClose, product }: { open: boolean; on
     };
     sessionStorage.setItem('smokegrill_pending_order', JSON.stringify(payload));
     // Redirect to payment link (simulación)
-    window.location.href = 'PONER_AQUI_EL_LINK_DE_PAGO';
+    window.location.href = 'https://tse2.mm.bing.net/th/id/OIP.UbvBhwpvQECVCG7AMWt9_AHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3';
   }
 
   return (
