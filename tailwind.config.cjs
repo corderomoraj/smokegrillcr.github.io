@@ -3,6 +3,18 @@ module.exports = {
     "./app/**/*.{ts,tsx,js,jsx}",
     "./components/**/*.{ts,tsx,js,jsx}"
   ],
+  safelist: [
+    'text-white',
+    'bg-teal-600',
+    'min-h-screen',
+    'rounded-full',
+    'shadow-lg',
+    'w-14',
+    'h-14',
+    'flex',
+    'items-center',
+    'justify-center'
+  ],
   theme: {
     extend: {
       colors: {
